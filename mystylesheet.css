@@ -1,0 +1,84 @@
+body{
+    padding-top: 5%;
+    height: auto;
+margin: auto ;
+padding-top:5%;
+font-size:1.2em;
+background-color: beige;
+}
+.header {
+    margin-top: auto;
+    background-color: rgb(132, 151, 200);
+    color:rgb(255,255,255) ;
+    position: fixed;
+    top:0;
+    width:100%;
+    height:50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header-items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header-items > li > a {
+    background-color: rgb(155, 155, 192);
+    padding: 0.5em 1em;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+
+.Home, .About , .Address , .Projects , .Skills , .Hobbies , .Contact {
+  text-align: center;
+  font-weight: 1000;
+  font-size-adjust: inherit;
+  background-color:lightcoral;
+  font-size: 50px;
+}
+ .a-item , .Add-item , .S-item , .Hob-item {
+    border: 5px dotted black;
+    border-radius: 1px dotted red;
+    padding: 0.5em;
+    text-align: center;
+    border: 5px;
+    font-size: 1em;
+    width: 20%;
+    background-color:lightcyan;
+    margin: auto;
+}
+.p-item{
+border: 5px dotted black;
+border-radius: 1px dotted red;
+padding: 0.5em;
+text-align: center;
+border: 5px;
+font-size: 1em;
+width: 40%;
+background-color:lightcyan;
+margin: auto;
+}
+.C-item{
+
+
+border: 5px dotted black;
+border-radius: 1px dotted red;
+padding: 0.5em;
+text-align: center;
+border: 5px;
+font-size: 1em;
+width: 32%;
+background-color: lightcyan;
+margin: auto;
+}
+.p-class{
+    text-align: center;
+    margin-left:2em;
+    padding-left: 2em;
+}
